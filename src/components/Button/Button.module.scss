@@ -6,4 +6,15 @@
     background: none;
     border: 2px solid #1E58FF;
     color: #1E58FF;
+    cursor: pointer;
+}
+
+.secondary {
+    @extend .button;
+    background-color: #1E58FF;
+    color: #fff;
+    width: 120px;
+    font-weight: 700;
+    font-size: .8em; 
+    box-shadow: 0 5px 20px -5px rgba(#818181, .9);
 }
