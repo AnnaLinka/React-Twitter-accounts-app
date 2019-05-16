@@ -11,10 +11,14 @@
     &Link {
         text-decoration: none;
         color: #818181;
-        font-size: .8em;
+        font-size: .9em;
 
         &Active {
             font-weight: 700;
+        }
+
+        &:hover {
+            border-bottom: 2px solid #1E58FF;            
         }
     }
 }

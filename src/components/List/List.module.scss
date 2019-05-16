@@ -1,4 +1,10 @@
-.wrapper {
-  width: 80vw;
-  margin: 100px auto 0;
+.noItem {
+  font-size: 1.2em;
+  color: darkgrey;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 100px auto;
+  max-width: 500px;
+  font-weight: 500;
 }
